@@ -1,0 +1,236 @@
+@media(max-width:992px)
+{
+    .container 
+    {
+        justify-content: center;
+        max-width: 730px;
+    }
+    .top-line
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-number
+    {
+        margin-top: 50px;
+    }
+    .header-img
+    {
+        display: none;
+    }
+    .teatr-img
+    {
+        display: none;
+    }
+    .slider
+    {
+        margin-right:200px;
+        display: none;
+    }
+    .wrapper_im {
+        display: grid;
+        grid-template-columns: 0fr 1fr;
+        margin-left: 148px;
+        gap: 0px;
+        }
+    .best-teatr
+    {
+        zoom: 70%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .part
+    {
+        display: none;
+    }
+    .wrapp-part
+    {
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+    }
+    .partner
+    {
+        width: 100%;
+    }
+    .atrib
+    {
+        flex-direction: column-reverse;
+    }
+    .kontact
+    {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 80px;
+    }
+    .information
+    {
+        text-align: right;
+        
+    }
+    .information div
+    {
+        padding-bottom: 25px;
+    }
+    .number div
+    {
+        padding-bottom: 25px;
+    }
+  
+   
+}
+@media(max-width:768px)
+{
+    .header-text
+    {
+        text-align: center;
+        width: 540px;
+    }
+    .wrapper_im {
+        display: grid;
+        grid-template-columns: 0fr 1fr;
+        gap: 0px;
+        margin-left: 0px;
+        }
+    .header-text h1
+    {
+        width: 540px;
+    }
+    .header-text p
+    {
+        text-align: left;
+        width: 540px;
+    }
+}
+
+@media(max-width:576px)
+{
+    .container
+    {
+        width: 100%;
+    }
+    .header-menu{
+        display: none;
+     }
+    .main-about
+    {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .teatr-spb p
+    {
+        text-align: center;
+    }
+    .tsifry
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width: 510px;
+        align-items: center;
+        height: 100%;
+    }
+    .pictures
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+
+    }
+    .wrapper_im
+    {
+        display: none;
+    }
+    .wrapper_image
+    {
+        display: none;
+    }
+    .wrapper_images
+    {
+        display: block;
+    }
+    .best-teatr
+    {
+       height: auto;
+       width: 100%;
+       background-size: 100%;
+    }
+    .wrapp-part
+    {
+        display: none;
+    }
+    .wrapper-part
+    {
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        text-align: center;
+        gap: 70px ;
+    }
+   
+    .vvod
+    {
+        flex-direction: column;
+    }
+    .SMS
+    {
+        justify-content: center;
+        align-content: space-around;
+        align-items: center;
+        width: 575px;
+        
+    }
+    .soobshenie
+    {
+        margin-top: 10px;
+        width: 100% ;
+    }
+    .soobshenie input
+    {
+        width: 510px;
+    }
+    .atrib
+    {
+        flex-direction: column-reverse;
+        /* max-width: 500px; */
+        justify-content: center;
+    }
+    .vvod-pole input
+    {
+        width: 230px;
+        margin-right: 50px;
+    }
+    .dannie
+    {
+        flex-direction: column-reverse;
+        width: 300px;
+        padding: 35px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .text
+    {
+        text-align: center;
+        margin-top: 30px;
+        width: 350px;
+        justify-content: center;
+    }
+    .knop
+    {
+        justify-content: center;
+        width: 190px;
+        text-align: center;
+    }
+    .knop button
+    {
+        margin: 0;
+        
+    }
+    .kontact
+    {
+        align-items:center;
+        justify-content: space-around;
+    }
+}

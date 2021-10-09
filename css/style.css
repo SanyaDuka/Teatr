@@ -1,0 +1,614 @@
+html
+{
+    scroll-behavior: smooth;
+}
+.none
+ {
+    display: none;
+}
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: rgba(13, 20, 26, 0.77);
+}
+span{
+    color: #D1A954;
+ }
+ h3
+{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+header
+{
+    background-image: linear-gradient(to right, rgba(12, 12, 12, 0.2),rgba(12, 12, 12, 0.2)), url(../img/teatr.jpg); 
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.container 
+{
+  max-width: 1110px;
+  margin: 0 auto;
+}
+  .flex-header
+{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction:column;
+    align-items: center;
+    font-family: PT Sans, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+.top-line
+{
+    display: flex;
+    justify-content:space-between;
+    flex-direction:row;
+    align-items: center; 
+    color: gray;
+    text-align: left; 
+    width: 100%;
+    margin-top: 50px;
+}
+
+.header-menu
+{
+    display: flex;
+    justify-content:space-between;
+    flex-direction:row;
+    align-items: space-between;
+    padding-right: 30px;
+}
+nav
+{
+    width: 100%;
+}
+nav ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.header-menu li
+{
+    display: block;
+    padding-right: 40px;
+    font-size: 16px;
+    font-family: Open sans, Condensed;
+}
+.header-menu li a
+{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.header-menu li a:hover
+{
+    color:rgb(201, 24, 24);
+}
+header ul p
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em; 
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(186, 204, 19);
+}
+.header-number
+{
+    border-bottom: 2px solid #D1A954; 
+    font-size: 18px;
+    color:#FFFFFF;
+}
+.header-text-img
+{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.header-text
+{
+    color:#FFFFFF;
+    padding-right: 25px;
+    max-width: 50%;
+    padding-top: px;
+}
+.header-text h1
+{
+    font-size: 50px;
+    line-height: 87px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.header-text p
+{
+    font-size: 14px;
+    line-height: 150%;
+    padding: 50px 0px;
+}
+.header-text button
+{
+    width: 150px;
+    height: 50px;
+    background: #D1A954;
+    color:#fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.header-img
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 50px 74px;
+    height: 570px;
+  
+}
+.streloch 
+{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header-left{
+    text-align: center;
+    height: 25px;
+    padding: auto;
+ }
+ 
+ .header-left img{
+    width: 40px;
+ }
+ 
+ .header-left span{
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff9f9;
+ }
+ 
+ .header-left:hover{
+    cursor: pointer;
+ }
+ 
+ .header-right img{
+    width: 40px;
+ }
+ 
+ .header-right span{
+    margin-right: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+ 
+ .header-right:hover{
+    cursor: pointer;
+ }
+.main-about
+{
+    display:flex;
+    flex-direction: row;
+    /* padding: 0px 30px; */
+}
+.main-about p
+{
+    margin-top:15px;
+}
+h2
+{
+    margin: 0 auto;
+    padding-top: 95px;
+    padding-bottom: 150px;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.pictures
+{
+    margin-top:40px;
+}
+.tsifry{
+    height: 290px;
+    width: 290px;
+    padding: 0 30px;
+ }
+ 
+ .teatr-img{
+    background: url(../img/fountain.png);
+    height: 290px;
+    width: 350px;
+ }
+ 
+ .pict{
+    margin-top: 35px;
+ }
+ 
+ .pict p{
+ 
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+ }
+ 
+ .pict span{
+    color: #D1A954;
+ }
+ 
+.teatr-spb
+{
+    height: 290px;
+    width: 445px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+} 
+.teatr-spb p
+{
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  text-align:left;
+  margin-top:40px;
+}
+.slider
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start;
+    padding-left: 150px;
+    max-width: 100%;
+}
+.slider img
+{
+    width: 280px;
+    height: 300px; 
+} 
+.pic1{
+    background:  url(../img/playhouse.png);
+    min-width: 442px;
+    height: 550px;
+ 
+ }
+ .slider-goriz{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+ 
+ .slider-vert{
+    margin-top: 40px;
+    margin-left: -340px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+ }
+  
+.slider-search
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-search button img
+{    
+    width: 20px;
+    height: 20px;
+    top:50%;
+    left:50%;
+    text-align: center;
+}
+.slider-search .archa
+{
+    min-width: 442px;
+    height: 550px;
+}
+.slider-search button
+{
+    position:absolute;
+    background: transparent;
+    border:0;
+    background: #D1A954;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+     opacity: 0; 
+}
+ .slider-search :hover
+{
+    opacity: 1;
+} 
+.pic2{
+    background: linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(../img/gramophone.png);
+    min-width: 442px;
+    height: 550px;
+ }
+ .pic3{
+    background: linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(../img/nutcracker.png);
+    min-width: 442px;
+    height: 550px;
+ }
+ .wrapper_im {
+    display: none;
+    }
+    .wrapper_image
+    {
+        display: none;
+        }
+        .wrapper_images
+        {
+            display: none;
+            }
+.best-teatr
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 150px;
+    /* padding: 0px 25px; */
+    height: 550px;
+    background-image: url(../img/fontan.jpg);
+}
+.best-teatr-year
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+}
+.best-teatr-year h3
+{
+    font-size: 72px;
+    color: #D1A954;
+    line-height: 98px;
+}
+.best-teatr-star
+{
+    max-width: 540px;
+}
+.best-teatr-star p
+{
+    color:#fff;
+    font-family: Open Sans;
+    /* font-style: normal;
+    font-weight: bold; */
+    font-size: 36px;
+    line-height: 50px;
+    
+    text-align: left;
+    width: 540px;
+    
+}
+.best-teatr-star img
+{
+    width: 26px;
+    height: 24px;
+    margin-bottom: 25px;
+}
+.partner
+{
+    margin: auto;
+    margin-top: 150px;
+    width: 1034px;
+    /* overflow: hidden; */
+}
+.part{
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .partner1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .partner2{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .wrapp-part
+ {
+     display: none;
+ }
+ .wrapper-part
+ {
+     display: none;
+ }
+ .mecenat{
+    margin: auto;
+    margin-top: 150px;
+    max-width: 1100px;
+    /* height: 355px; */
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .atrib{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+ }
+ 
+ .kontact{
+    width: 255px;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+ 
+ .SMS{
+    width: 730px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ 
+ .vvod{
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .vvod-pole{
+    width: 390px;
+    height: 100px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+ }
+ 
+ .vvod-pole div{
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .vvod-pole input{
+    outline: none;
+    width: 180px;
+    height: 35px;
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #989898;
+    padding: 15px;
+ }
+ 
+ .soobshenie input{
+    outline: none;
+    width: 310px;
+    height: 100px;
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #989898;
+    padding: 0 0 50px 0;
+    padding-left: 15px;
+ }
+ 
+ .dannie{
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .text{
+    width: 390px;
+    height: 50px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #989898;
+ }
+ 
+ .knop button{
+    width: 190px;
+    height: 50px;
+    background: #D1A954;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    transition: all 0.5s ease-in;
+ }
+ 
+ .knop button:hover{
+    color: #D1A954;
+    background: white;
+ }
+ 
+ button div{
+    margin: auto;
+ }
+ 
+ .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;   
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    border-top: #565656 solid 1px;
+  
+ }
+ 
+ .text-footer{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #989898;
+ }
